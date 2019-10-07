@@ -5,12 +5,7 @@ import {
   StyleSheet,
   Platform
 } from 'react-native'
-import {Svg} from '../config'
-const {
-  G, 
-  Surface, 
-  Path
-} = Svg
+import Svg, { G, Path } from 'react-native-svg'
 import Pen from '../tools/pen'
 import Point from '../tools/point'
 
